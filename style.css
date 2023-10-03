@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: Gilroy;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+nav img {
+    width: 50px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a {
+    text-decoration: none;
+    align-items: center;
+    color: #000;
+}
+#page {
+    display: flex;
+    align-items: center;
+    justify-content: cente;
+    width: 80vw;
+    margin: 100px auto;
+    padding: 30px 0;
+}
+.leftPage {
+    width: 50%;
+    height: calc(100vh - 50px);
+
+}
+.leftPage h1 {
+    font-size: 4vw;
+}
+
+.leftPage p {
+    font-size: 1.2vw;
+    padding: 15px 100px 15px 0;
+    line-height: 32px;
+}
+
+.leftPage .btn {
+    padding: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: Gilroy;
+    border-radius: 50px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.leftPage .btn:hover { 
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+.rightPage {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-97%, -28%);
+
+}
+.rightPage img {
+    height: 70vh;
+}
+
+
+
